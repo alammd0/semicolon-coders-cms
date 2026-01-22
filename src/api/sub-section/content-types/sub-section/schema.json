@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sub_sections",
+  "info": {
+    "singularName": "sub-section",
+    "pluralName": "sub-sections",
+    "displayName": "SubSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "biginteger"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    }
+  }
+}
